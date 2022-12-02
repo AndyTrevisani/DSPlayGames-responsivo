@@ -59,7 +59,7 @@
         </section>
 
         <section id="games">
-            <div class="conteiner-games">
+            <div class="conteiner-vertical">
                 <h2>Jogos</h2>
                 <div class="card-games">
                     <div>
@@ -116,35 +116,37 @@
         </section>
 
         <section id="signup">
-            <h2>Faça sua Inscrição</h2>
-            <div>
-                <form action="#">
-                    <div>
-                        <input type="text" name="nome" placeholder="Nome completo"><br>
-                        <input type="email" name="email" placeholder="Email">
-                    </div>
-                    <label for="plataform">Qual sua palataforma preferida?</label>
-                        <div id="plataform">
-                            <input type="radio" name="plataform" id="pc">
-                            <label for="pc">PC</label>
-
-                            <input type="radio" name="plataform" id="xbox">
-                            <label for="xbox">Xbox</label>
-
-                            <input type="radio" name="plataform" id="playstation">
-                            <label for="playstation">Play Station</label>
+            <div class="conteiner conteiner-vertical">
+                <h2>Faça sua Inscrição</h2>
+                <div class="signup-form">
+                    <form action="#">
+                        <div class="form-name-email">
+                            <input id="name" type="text" name="nome" placeholder="Nome completo"><br>
+                            <input id="email" type="email" name="email" placeholder="Email">
                         </div>
-                    <div>
-                        <input type="checkbox" name="latest" id="latest">
-                        <label for="latest">Desejo receber novidades</label>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                    </div>
-                    <div>
-                        <input type="reset" value="Limpar">
-                    </div>
-                </form>
+                        <label for="plataform">Qual sua palataforma preferida?</label>
+                            <div id="plataform">
+                                <input type="radio" name="plataform" id="pc">
+                                <label for="pc">PC</label>
+
+                                <input type="radio" name="plataform" id="xbox">
+                                <label for="xbox">Xbox</label>
+
+                                <input type="radio" name="plataform" id="playstation">
+                                <label for="playstation">Play Station</label>
+                            </div>
+                        <div>
+                            <input type="checkbox" name="latest" id="latest">
+                            <label for="latest">Desejo receber novidades</label>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar">
+                        </div>
+                        <div>
+                            <input type="reset" value="Limpar">
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
