@@ -124,26 +124,32 @@
                             <input id="name" type="text" name="nome" placeholder="Nome completo"><br>
                             <input id="email" type="email" name="email" placeholder="Email">
                         </div>
-                        <label for="plataform">Qual sua palataforma preferida?</label>
-                            <div id="plataform">
-                                <input type="radio" name="plataform" id="pc">
-                                <label for="pc">PC</label>
-
-                                <input type="radio" name="plataform" id="xbox">
-                                <label for="xbox">Xbox</label>
-
-                                <input type="radio" name="plataform" id="playstation">
-                                <label for="playstation">Play Station</label>
+                        <div class="signup-plataform">
+                            <label for="plataform">Qual sua palataforma preferida?</label>
+                                    <div>
+                                        <input type="radio" name="plataform" id="pc">
+                                        <label for="pc">PC</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="plataform" id="xbox">
+                                        <label for="xbox">Xbox</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" name="plataform" id="playstation">
+                                        <label for="playstation">Play Station</label>
+                                    </div>
+                            <div class="signup-latest">
+                                <input type="checkbox" name="latest" id="latest">
+                                <label for="latest">Desejo receber novidades</label>
                             </div>
-                        <div>
-                            <input type="checkbox" name="latest" id="latest">
-                            <label for="latest">Desejo receber novidades</label>
-                        </div>
-                        <div>
-                            <input type="submit" value="Enviar">
-                        </div>
-                        <div>
-                            <input type="reset" value="Limpar">
+                            <div class="signup-buttons">
+                                <div>
+                                    <input id="submit" type="submit" value="Enviar">
+                                </div>
+                                <div>
+                                    <input id="reset" type="reset" value="Limpar">
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -152,14 +158,16 @@
     </main>
 
     <footer>
-        <address>@dsplaygames<br>/dsplaygames
-        </address>
-        <div>
-            <p>DS Play Games Ltda. Todos direitos reservados</p>
-        </div>
-        <div>
-            <p>Política de privacidade</p>
-            <p>Política de privacidade</p>
+        <div class="conteiner-vertical">
+            <address>@dsplaygames<br>/dsplaygames
+            </address>
+            <div class="footer-right">
+                <p>DS Play Games Ltda. Todos direitos reservados</p>
+            </div>
+            <div class="footer-privacy">
+                <p>Política de privacidade</p>
+                <p>Política de privacidade</p>
+            </div>
         </div>
     </footer>
 </body>

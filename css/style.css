@@ -223,6 +223,7 @@ header img{
     width: 300px;
     background-color: var(--bg-card-news);
     border-radius: 8px;
+    margin-bottom: 40px;
 }
 
 .signup-form  form{
@@ -257,9 +258,58 @@ header img{
     padding: 13px 0 13px 22px;
 }
 
-.signup-form label{
+.signup-plataform{
     font-size: 1.6rem;
     margin-bottom: 8px;
+}
+
+.signup-latest{
+    margin-top: 35px;
+    margin-bottom: 47px;
+}
+
+.signup-buttons input{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.signup-buttons #submit{
+    background-color: var(--button-color);
+    color: var(--bg-card-game);
+}
+
+.signup-buttons #reset{
+    background-color: var(--bg-card-game);
+    color: var(--button-color);
+}
+
+footer{
+    height: 302px;
+    background-color: var(--bg-footer);
+    color: var(--bg-card-game) ;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+footer address{
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
+
+.footer-right{
+    margin-bottom: 40px;
+}
+
+.footer-privacy{
+    margin-bottom: 30px;
+}
+
+.footer-privacy p{
+    margin-bottom: 15px;
 }
 
 
