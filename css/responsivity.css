@@ -13,7 +13,7 @@
     --bg-card-news: #F0F0F0;
     --button-color: #DD7E92;
     --bg-card-game: #FFFFFF;
-    --bg-footer: #383838;
+    --bg-footer: #383838;   
     --text-color: #797979;
     --placeholder: #C4C4C4;
 
@@ -95,10 +95,23 @@ img{
     }
 }
 
-@media (min-width: 735px) { 
+/* @media (min-width: 735px) { 
 
     #signup{
         height: 770px;
+    }
+
+    .signup-form {
+        height: 522px;
+        max-width: 790px;
+    } */
+
+/* } */
+
+@media (min-width: 745px) { 
+
+    #signup{
+        height: 700px;
     }
 
     .signup-form {
@@ -167,15 +180,31 @@ img{
         font-size: 3.6rem;
         margin-bottom: 40px;
     }
-
-    #signup{
-        height: 800px;
-    }
 }
 
 
+@media (min-width: 960px) {  
 
-@media (min-width: 996px) {  
+    footer{
+        height: 190px;
+    }
+
+    .footer-set{
+        margin: 0 auto; 
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 190px;
+    }
+
+    .footer-right, .footer-privacy, .footer-privacy p{
+        margin: 0;
+    }
+}
+
+@media (min-width: 1000px) {  
     #games{
         height: 559px;
     }

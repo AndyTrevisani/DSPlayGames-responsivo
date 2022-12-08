@@ -250,6 +250,7 @@ header img{
     border-radius: 4px;
     padding: 13px 0 13px 22px;
     max-width: 642px;
+    outline: #797979;
 
 }
 
@@ -262,6 +263,7 @@ header img{
     margin-bottom: 20px;
     border-radius: 4px;
     padding: 13px 0 13px 22px;
+    outline: #797979;
     
 }
 
@@ -296,11 +298,13 @@ header img{
 .signup-buttons #submit{
     background-color: var(--button-color);
     color: var(--bg-card-game);
+    border: none;
 }
 
 .signup-buttons #reset{
     background-color: var(--bg-card-game);
     color: var(--button-color);
+    border: 1px solid var(--button-color);
     margin-bottom: 33px;
 }
 
@@ -311,6 +315,7 @@ footer{
     font-size: 1.4rem;
     text-align: center;
 }
+
 
 footer address{
     margin-top: 28px;
